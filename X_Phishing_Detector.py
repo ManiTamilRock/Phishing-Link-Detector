@@ -36,7 +36,7 @@ def is_phishing_link(url):
         return True
 
     # Check for URL shorteners
-    if 'bit.ly' in url or 'goo.gl' in url or 'tinyurl' in url:
+    if 'bit.ly' in url or 'goo.gl' in url or 'tinyurl' in url or 'shorturl' in url:
         return True
 
     return False
